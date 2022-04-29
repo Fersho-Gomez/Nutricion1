@@ -66,6 +66,7 @@ header{
     font-size: 40px;
     font-weight: bold;
 }
+/*Header*/
 
 /*nav*/
 
@@ -96,61 +97,7 @@ header{
     display: flex;
     justify-content: center;
 }
-
-/*section despues de nav*/
-
-.estructura .contenido{
-    display: flex;
-    justify-content: space-between;
-}
-
-.estructura .contenido .contenedor_izq{
-    width: 100%;
-    margin-right: 20px;
-}
-
-.estructura .contenido .contenedor_izq h2{
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-}
-
-.estructura .contenido .contenedor_izq p{
-    font-size: 22px;
-    text-align: justify;
-}
-
-.estructura .contenido .contenedor_der{
-    width: 100%;
-}
-
-.estructura .contenido .contenedor_der img , .contenedor_izq img{
-    width: 500px;
-    height: 300px;
-}
-
-.estructura .contenido .contenedor_der h2,p{
-    margin-top: 140px;
-}
-
-.estructura .contenido .contenedor_der p{
-    font-size: 22px;
-    text-align: justify;
-}
-
-.estructura .contenido .contenedor_der .img-cir{
-    margin-top: 150px;
-}
-
-.estructura .contenido .contenedor_der .img-adult{
-    height: 700px;
-}
-
-.estructura .contenido .contenedor_der .img-diet{
-    margin-top: 30px;
-    height: 650px;
-}
-
+/*footer*/
 .estructura .pie_pagina .fin ul{
     list-style: none;
     display: flex;
@@ -169,8 +116,12 @@ header{
     color:coral;
 }
 
+.estructura .ben{
+    margin-top: 75px;
+}
 
 footer{
+    margin-top: 75px;
     height: 100px;
     background-image: linear-gradient(rgba(143, 188, 143,0.6),rgba(0, 255, 255,0.6)),
      url("../imagenes/pie.jpg");

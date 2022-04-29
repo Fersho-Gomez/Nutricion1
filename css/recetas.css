@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header{
+    width: 100%;
+    height: 170px;
+    background-image: url("../imagenes/fondo-header.jpg");
+}
+
+.estructura .encabezado{
+    margin: 30px;
+    margin-top: -10px;
+}
+
+
+.estructura .menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.estructura .menu .menu-logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.estructura .menu .menu-logo .logo{
+    width: 50%;
+    margin-left: 75px;
+}
+
+.estructura .menu .menu-list {
+    width: 100%;
+    height: inherit;
+    margin-right: 35px;
+}
+
+
+.estructura .menu .menu-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+}
+
+.estructura .menu .menu-list ul li{
+    font-size: 30px;
+    color: black;
+}
+
+.estructura .menu .menu-list ul li:hover{
+    color: blue;
+}
+
+.estructura .menu .menu-logo h1{
+    margin-top: 0px;
+}
+
+.estructura .encabezado .menu-logo .lectra{
+    font-family: edwardian script itc;
+    font-size: 40px;
+    font-weight: bold;
+}
+/*Header*/
+
+/*nav*/
+
+.estructura nav .opciones .list_opc ul li .card{
+    background: transparent;
+}
+
+.estructura nav .opciones .list_opc ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.estructura nav .opciones .list_opc ul li .card{
+    border: white;
+}
+
+.estructura nav .opciones .list_opc ul li .card img{
+    margin-left: 70px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.estructura nav .opciones .list_opc ul li .card h5{
+    margin-left: 54px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+/*recetas*/
+.estructura .recetas .rec-1{
+    display: flex;
+    justify-content: space-between;
+}
+.estructura .rec-1 .info{
+    width: 100%;
+}
+.estructura .rec-1 .des{
+    width: 100%;
+}
+.estructura .rec-1 .des .receta-1{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.estructura .recetas .rec-2{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.estructura .rec-2 .info{
+    width: 100%;
+}
+.estructura .rec-2 .des{
+    width: 100%;
+}
+.estructura .rec-2 .des .receta-2{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 450px;
+    height: 450px;
+}
+
+.estructura .recetas .rec-3{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.estructura .rec-3 .info{
+    width: 100%;
+}
+.estructura .rec-3 .des{
+    width: 100%;
+}
+.estructura .rec-3 .des .receta-3{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 450px;
+    height: 450px;
+}
+
+.estructura .recetas .rec-4{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.estructura .rec-4 .info{
+    width: 100%;
+}
+.estructura .rec-4 .des{
+    width: 100%;
+}
+.estructura .rec-4 .des .receta-4{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 450px;
+    height: 450px;
+}
+
+.estructura .recetas .rec-5{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.estructura .rec-5 .info{
+    width: 100%;
+}
+.estructura .rec-5 .des{
+    width: 100%;
+}
+.estructura .rec-5 .des .receta-5{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 450px;
+    height: 450px;
+}
+
+
+.estructura .recetas .rec-6{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.estructura .rec-6 .info{
+    width: 100%;
+}
+.estructura .rec-6 .des{
+    width: 100%;
+}
+.estructura .rec-6 .des .receta-6{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 450px;
+    height: 450px;
+}
+
+
+.estructura .recetas .rec-7{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.estructura .rec-7 .info{
+    width: 100%;
+}
+.estructura .rec-7 .des{
+    width: 100%;
+}
+.estructura .rec-7 .des .receta-7{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 450px;
+    height: 450px;
+}
+
+
+.estructura .recetas .rec-8{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.estructura .rec-8 .info{
+    width: 100%;
+}
+.estructura .rec-8 .des{
+    width: 100%;
+}
+.estructura .rec-8 .des .receta-8{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 450px;
+    height: 450px;
+}
+
+.estructura .recetas .rec-9{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.estructura .rec-9 .info{
+    width: 100%;
+}
+.estructura .rec-9 .des{
+    width: 100%;
+}
+.estructura .rec-9 .des .receta-9{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 450px;
+    height: 450px;
+}
+/*footer*/
+.estructura .pie_pagina .fin ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.estructura .pie_pagina .fin ul li{
+    margin-top: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.estructura .pie_pagina .fin ul li:hover{
+    color:coral;
+}
+
+.estructura .ben{
+    margin-top: 75px;
+}
+
+footer{
+    margin-top: 75px;
+    height: 100px;
+    background-image: linear-gradient(rgba(143, 188, 143,0.6),rgba(0, 255, 255,0.6)),
+     url("../imagenes/pie.jpg");
+    
+}

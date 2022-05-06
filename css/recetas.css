@@ -286,7 +286,6 @@ header{
 }
 
 footer{
-    margin-top: 75px;
     height: 100px;
     background-image: linear-gradient(rgba(143, 188, 143,0.6),rgba(0, 255, 255,0.6)),
      url("../imagenes/pie.jpg");
@@ -306,4 +305,16 @@ p,li{
 }
 b{
     font-size: 20px;
+}
+
+/*caja-comentarios*/
+.estructura .caja-comentarios{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.estructura .caja-comentarios .lbl-comentarios{
+    font-family: cursive;
+    font-size: 40px;
 }

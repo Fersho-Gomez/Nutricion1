@@ -137,9 +137,23 @@ header{
 }
 
 footer{
-    margin-top: 75px;
     height: 100px;
     background-image: linear-gradient(rgba(143, 188, 143,0.6),rgba(0, 255, 255,0.6)),
      url("../imagenes/pie.jpg");
     
+}
+
+h1{
+    color: rgb(58, 58, 192);
+}
+/*caja-comentarios*/
+.estructura .caja-comentarios{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.estructura .caja-comentarios .lbl-comentarios{
+    font-family: cursive;
+    font-size: 40px;
 }

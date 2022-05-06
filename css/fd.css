@@ -101,7 +101,11 @@ header{
 .contenido{
     margin-top: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.contenido .deb, .amen{
+    margin-left: 300px;
 }
 /*footer*/
 .estructura .pie_pagina .fin ul{
@@ -127,7 +131,6 @@ header{
 }
 
 footer{
-    margin-top: 75px;
     height: 100px;
     background-image: linear-gradient(rgba(143, 188, 143,0.6),rgba(0, 255, 255,0.6)),
      url("../imagenes/pie.jpg");
@@ -136,4 +139,22 @@ footer{
 
 h1,h2,h3,h4,h5{
     font-family: "Broadway";
+}
+
+/*caja-comentarios*/
+.estructura .caja-comentarios{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+}
+h1{
+    color: rgb(58, 58, 192);
+}
+
+.estructura .caja-comentarios .lbl-comentarios{
+    font-family: cursive;
+    font-size: 40px;
 }

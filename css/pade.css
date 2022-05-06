@@ -135,9 +135,20 @@ h1,h2,h3,h4,h5{
 }
 
 footer{
-    margin-top: 75px;
     height: 100px;
     background-image: linear-gradient(rgba(143, 188, 143,0.6),rgba(0, 255, 255,0.6)),
      url("../imagenes/pie.jpg");
     
+}
+
+/*caja-comentarios*/
+.estructura .caja-comentarios{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.estructura .caja-comentarios .lbl-comentarios{
+    font-family: cursive;
+    font-size: 40px;
 }

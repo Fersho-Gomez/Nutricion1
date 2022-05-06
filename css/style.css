@@ -181,9 +181,13 @@ footer{
      url("../imagenes/pie.jpg");
     
 }
+h2{
+    color: rgb(58, 58, 192);
+}
 
 /*caja-comentarios*/
 .estructura .caja-comentarios{
+    margin-top: 50px;
     width: 100%;
     text-align: center;
 }
